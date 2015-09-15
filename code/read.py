@@ -3,7 +3,7 @@ __author__ = 'Gustav'
 
 import csv
 
-
+#Read function for the file adult.data and adult.test.
 def read(file):
     records = []
     with open(file, 'rt') as csvfile:
